@@ -1,10 +1,5 @@
-FROM node:5.6-slim
-MAINTAINER Justin Firth <jmfirth@gmail.com>
+FROM jmfirth/webpack:5.6-slim
+MAINTAINER Jonathan Azoff <dev@beomni.com>
 
-RUN npm install -g webpack webpack-dev-server
-
-VOLUME /app
-
-EXPOSE 3000
-
-WORKDIR /app
+RUN apt-get update
+RUN apt-get install -y zip
