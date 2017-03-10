@@ -3,3 +3,4 @@ MAINTAINER Jonathan Azoff <dev@beomni.com>
 
 RUN apt-get update
 RUN apt-get install -y zip git
+RUN npm install -g pnpm
