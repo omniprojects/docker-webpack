@@ -2,7 +2,7 @@ FROM node:7.9
 MAINTAINER Jonathan Azoff <dev@beomni.com>
 
 RUN apt-get install -y bzip2 git
-RUN npm install -g webpack webpack-dev-server yarn
+RUN npm install -g webpack webpack-dev-server
 
 VOLUME /app
 
